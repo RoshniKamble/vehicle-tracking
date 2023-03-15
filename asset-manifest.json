@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/vehicle-tracking/static/css/main.675c0934.css",
+    "main.js": "/vehicle-tracking/static/js/main.2fa35f35.js",
+    "static/js/787.b6db34ba.chunk.js": "/vehicle-tracking/static/js/787.b6db34ba.chunk.js",
+    "static/media/about-img.jpg": "/vehicle-tracking/static/media/about-img.497b1bf6817176467e11.jpg",
+    "static/media/bg-image-01.jpg": "/vehicle-tracking/static/media/bg-image-01.849a57f5836c72c241e0.jpg",
+    "static/media/t-image1.jpg": "/vehicle-tracking/static/media/t-image1.3afd34becf6c817b37ec.jpg",
+    "static/media/t-image2.jpg": "/vehicle-tracking/static/media/t-image2.61570064c379ec517afd.jpg",
+    "static/media/t-image3.jpg": "/vehicle-tracking/static/media/t-image3.9984fb03a5a994482009.jpg",
+    "index.html": "/vehicle-tracking/index.html",
+    "main.675c0934.css.map": "/vehicle-tracking/static/css/main.675c0934.css.map",
+    "main.2fa35f35.js.map": "/vehicle-tracking/static/js/main.2fa35f35.js.map",
+    "787.b6db34ba.chunk.js.map": "/vehicle-tracking/static/js/787.b6db34ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.675c0934.css",
+    "static/js/main.2fa35f35.js"
+  ]
+}
