@@ -1,0 +1,205 @@
+header.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation4.MuiAppBar-root.MuiAppBar-colorPrimary.MuiAppBar-positionStatic.header-bar.css-hip9hq-MuiPaper-root-MuiAppBar-root {
+  background-color: #333333;
+}
+
+button.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButtonBase-root.css-sghohy-MuiButtonBase-root-MuiButton-root {
+  background-color: #333333;
+}
+
+button.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeSmall.MuiButton-textSizeSmall.MuiButtonBase-root.css-1knaqv7-MuiButtonBase-root-MuiButton-root {
+  color: #f96332;
+}
+
+.mapContainer {
+  height: calc(100vh - 80px);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  position: static;
+  color: #fff;
+  /* margin-top: 20px; */
+}
+
+.mapContainer>div {
+  margin: 20px 20px;
+  border: 1px solid;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+.btnCont {
+  display: flex;
+  justify-content: center;
+}
+
+.Hero {
+  background-image: url(assets/bg-image-01.jpg);
+  height: 100vh;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+
+.heading-1 {
+  color: #fff;
+  font-size: 5rem;
+  line-height: 1.28571;
+  padding-top: 5rem;
+}
+
+.heading-2 {
+  color: #333333;
+  display: block;
+  font-size: 40px;
+}
+
+.heading-3 {
+  color: #f96332;
+  font-size: 50px;
+  line-height: 1.28571;
+  padding-top: 5rem;
+}
+
+.heading-4 {
+  color: #333333;
+  display: block;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.About {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.inset-1 {
+  padding: 0 5%;
+  color: #fff;
+  padding: 25px 0;
+}
+
+.inset-2 {
+  padding: 0 5%;
+  color: #726d6d;
+  padding: 25px 100px;
+}
+
+.about-img {
+  height: 25rem;
+  width: 25rem;
+  text-align: center;
+  padding-top: 5rem;
+}
+
+.Features {
+  text-align: center;
+}
+
+.Features-text {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  padding: 50px 100px;
+}
+
+.featurecard {
+  display: flex;
+  flex-direction: column;
+}
+
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiCard-root.featurecard.css-1ri6ub7-MuiPaper-root-MuiCard-root {
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.4);
+}
+
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiCard-root.featurecard.css-1ri6ub7-MuiPaper-root-MuiCard-root:hover {
+  box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+img.MuiCardMedia-root.MuiCardMedia-media.MuiCardMedia-img.css-o69gx8-MuiCardMedia-root{
+  -webkit-transition: all 0.9s ease;
+  -moz-transition: all 0.9s ease;
+  -o-transition: all 0.9s ease;
+  -ms-transition: all 0.9s ease;
+  width: 100%;
+  height: 200px;
+}
+
+img.MuiCardMedia-root:hover.MuiCardMedia-media.MuiCardMedia-img.css-o69gx8-MuiCardMedia-root{
+  opacity: 0.7;
+  -webkit-transform: scale(1.15);
+  -moz-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  -o-transform: scale(1.15);
+  transform: scale(1.15);
+}
+
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 7rem;
+  color: rgb(145, 144, 144);
+  background-color: #333333;
+}
+
+@media (min-width: 0) and (max-width: 765px)  {
+  .Hero {
+    height: 70vh;
+  }
+
+  .About {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  .Features-text {
+    flex-direction: column;
+  }
+
+}
+
+@media (min-width: 766px) and (max-width: 821px) {
+  .Hero {
+    height: 50vh;
+  }
+  .about-img {
+    height: 15rem;
+    width: 15rem;
+  }
+
+  .About {
+    grid-template-columns: 20% 80%;
+  }
+}
+
+@media (min-width: 822px) and (max-width: 913px) {
+  .Hero {
+    height: 40vh;
+  }
+  .about-img {
+    height: 15rem;
+    width: 15rem;
+  }
+  .About {
+    grid-template-columns: 20% 80%;
+  }
+}
+
+@media (min-width: 913px) and (max-width: 3840px) {
+  .Hero {
+    height: 65vh;
+  }
+}
